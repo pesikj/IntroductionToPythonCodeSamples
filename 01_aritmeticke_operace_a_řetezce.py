@@ -11,11 +11,18 @@
 
 5 ** 3
 
+5 + 3.5
+
 # Problém s desetinnými čísly
 1.01 + 1.01
 1.01 + 1.01 + 1.01
 
+# Můžu použít uvozovky i apostrofy
 'Ahoj'
+"Ahoj"
+
+# Můžu použít apostrof v textu
+"We're champions"
 
 # Mezera se sama nepřidá
 'Ahoj' + 'Jirko'
