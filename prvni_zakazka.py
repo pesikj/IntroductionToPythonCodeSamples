@@ -22,3 +22,9 @@
 'Ahoj ' + 'Jirko'
 
 'Ahoj ' * 10
+
+#Sčítáme hrušky a jablka
+'Ahoj' / 5
+
+#Python bere string vždy jako string
+'5' + 5
