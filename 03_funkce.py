@@ -1,3 +1,6 @@
+# Absolutní číslo
+abs(-10)
+
 # Funkce Round
 round(2.3)
 round(2.9)
@@ -19,6 +22,12 @@ int(47)
 float(47.47)
 str('ahoj')
 
-delka_zpravy = len("Moje zpráva")
-print("Zpráva byla dlouhá " + str(delka_zpravy) + " znaků")
+# Služba - zasílání výzvy k vyzvednutí zásilky
+cislo_zasilky = '4509933'
+vyzvednout_do = '22. 1. 2020'
+dobirka = 350.5
+print("Výzva k vyzvednutí zásilky " +  cislo_zasilky +" do " + vyzvednout_do+", dobírka " + str(dobirka) +" Kč.")
+# Funkce format - přehlednější, nemusím převádět na str
+print("Výzva k vyzvednutí zásilky {} do {}, dobírka {} Kč.".format(cislo_zasilky, vyzvednout_do, dobirka))
 
+# Z tohoto bloku bychom mohli vytvořit vlastní funkci

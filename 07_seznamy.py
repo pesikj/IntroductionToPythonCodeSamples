@@ -1,0 +1,37 @@
+# Jednorozměrný seznam ()
+
+# Kolik jsem uběhl za týden
+ubehnuto = [3, 0, 0, 15, 2, 5, 9]
+ubehnuto[0] # První hodnota v seznamu
+ubehnuto[6] # Poslední hodnota v seznamu
+
+# Můžu hodnoty sečíst funkcí sum
+celkem = sum(ubehnuto)
+
+# Smíme hosta pustit na party?
+pozvani_hoste = ['Hana', 'Pavel', 'Klára', 'Natálie', 'Roman', 'Matěj']
+prichozi = 'Pavel'
+# Operátor in - je v seznamu?
+if prichozi in pozvani_hoste:
+    print('Pusť ho dovnitř!')
+else:
+    print('Host není na seznamu.')
+
+# Seznam může kombinovat datové typy
+chaoticka_data = [32, 'test', 4.3, True]
+
+# Lze mít i seznam v seznamu
+nakupy = [
+    ['Pavel', 'toaletní papír', 100],
+    ['Natálie', 'vajíčka', 80],
+    ['Roman', 'máslo', 50]
+]
+
+# Kolik stála vajíčka?
+nakupy[1][2]
+
+# Jaký byl první nákup?
+nakupy[0]
+
+#Jaký byl poslední nákup?
+nakupy[-1]

@@ -11,3 +11,7 @@ cista_mzda
 hruba_mzda = 44000
 # Čistá mzda zůstane stejná
 cista_mzda
+
+#Python může přiřadit dvě hodnoty najednou
+jmeno, prijimeni, vyhra = 'Pavel', 'Novak', '300'
+jmeno + ' ' + prijimeni + ' vyhrává ' + vyhra + ' Kč'
