@@ -31,6 +31,9 @@
 'Ahoj ' * 10
 
 #Sčítáme hrušky a jablka
+'Ahoj' + 5
+
+#A nemůžeme je ani dělit
 'Ahoj' / 5
 
 #Python bere string vždy jako string
