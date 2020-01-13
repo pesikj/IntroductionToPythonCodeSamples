@@ -21,17 +21,17 @@ else:
 chaoticka_data = [32, 'test', 4.3, True]
 
 # Lze mít i seznam v seznamu
-nakupy = [
+vydaje = [
     ['Pavel', 'toaletní papír', 100],
     ['Natálie', 'vajíčka', 80],
     ['Roman', 'máslo', 50]
 ]
 
 # Kolik stála vajíčka?
-nakupy[1][2]
+vydaje[1][2]
 
 # Jaký byl první nákup?
-nakupy[0]
+vydaje[0]
 
 #Jaký byl poslední nákup?
-nakupy[-1]
+vydaje[-1]
