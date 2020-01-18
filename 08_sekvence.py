@@ -1,12 +1,9 @@
-# Jednorozměrný seznam ()
+# Jednorozměrný seznam 
 
 # Kolik jsem uběhl za týden
 ubehnuto = [3, 0, 0, 15, 2, 5, 9]
 ubehnuto[0] # První hodnota v seznamu
 ubehnuto[6] # Poslední hodnota v seznamu
-
-# Můžu hodnoty sečíst funkcí sum
-celkem = sum(ubehnuto)
 
 # Smíme hosta pustit na party?
 pozvani_hoste = ['Hana', 'Pavel', 'Klára', 'Natálie', 'Roman', 'Matěj']
@@ -27,11 +24,11 @@ vydaje = [
     ['Roman', 'máslo', 50]
 ]
 
-# Kolik stála vajíčka?
-vydaje[1][2]
-
 # Jaký byl první nákup?
 vydaje[0]
 
 #Jaký byl poslední nákup?
 vydaje[-1]
+
+# Kolik stála vajíčka?
+vydaje[1][2]

@@ -13,6 +13,11 @@ math.ceil(3.2)
 math.ceil(3.5)
 math.ceil(3.9)
 
+# Cena hovoru do USA
+delka_sekundach = 549
+# Platím za každou započetou minutu
+math.ceil(delka_sekundach/60) * 35
+
 import random
 
 # Hrací kostka
