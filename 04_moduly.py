@@ -5,15 +5,13 @@ import math
 math.floor(3.2)
 math.floor(3.5)
 math.floor(3.9)
+# Tato funkce "neumí" druhý parametr
+# Tyto věci se neučíme nazpaměť, v případě potřeby se podíváme na web
 
 # Zaokrouhlování nahoru
 math.ceil(3.2)
 math.ceil(3.5)
 math.ceil(3.9)
-
-# Konstanty
-polomer_kruhu = 3
-obsah_kruhu = polomer_kruhu ** math.pi
 
 import random
 
@@ -21,3 +19,9 @@ import random
 random.randint(1, 6)
 # Náhodné číslo z rovnoměrného rozdělení
 random.uniform(10, 15)
+
+# Funkce můžeme i vkládat do sebe
+round(random.uniform(10, 15), 2)
+# Pozor, funkce se začínají vyhodnocovat zevnitř a předávají výsledek funkci venku
+# Pokud to zatím není jasné, lze se tomu vyhnout. Stačí výsledek první funkce uložit do proměnné
+# a ten předat další funkci.

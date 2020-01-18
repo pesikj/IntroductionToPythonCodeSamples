@@ -17,6 +17,11 @@
 1.01 + 1.01
 1.01 + 1.01 + 1.01
 
+# Můžeme využít i závorky
+# Např. na kolik vyjde noc v hotelu se snídaní pro 2?
+950 + 200 * 2 # Špatný výsledek
+(950 + 200) * 2 # Správný výsledek
+
 # Můžu použít uvozovky i apostrofy
 'Ahoj'
 "Ahoj"
@@ -30,11 +35,5 @@
 
 'Ahoj ' * 10
 
-#Sčítáme hrušky a jablka
-'Ahoj' + 5
-
-#A nemůžeme je ani dělit
-'Ahoj' / 5
-
-#Python bere string vždy jako string
-'5' + 5
+# Řetězec můžeme vytvořit i z čísla
+'Vyhrává lístek číslo: ' + '47'
