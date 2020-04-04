@@ -4,7 +4,6 @@
 
 hruba_mzda = 50000
 superhruba_mzda = hruba_mzda *  1.338
-superhruba_mzda = math.ceil(superhruba_mzda / 100) * 100
 dan_z_prijmu = superhruba_mzda * 0.15 - 2070
 pojisteni = hruba_mzda * 0.11
 cista_mzda = hruba_mzda - dan_z_prijmu - pojisteni
