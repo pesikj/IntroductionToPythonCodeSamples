@@ -5,27 +5,30 @@ vek = int(input("Zadej věk: "))
 
 # Vysvětlit odsazené bloky
 if vek >= 18:
-    print("Můžeš vstoupit.")
+  print("Můžeš vstoupit.")
 else:
-    print("Vstup zakázán.")
+  print("Vstup zakázán.")
 
 # Podmínka v podmínce
 if vek >= 18:
-    dost_penez = input("Máš 500 Kč [y/n] ? ")
-    if dost_penez == 'y':
-        print("Můžeš vstoupit.")
-    else:
-        print("Bez peněz sem nelez.")
+  dostPenez = input("Máš 500 Kč [y/n] ? ")
+  if dostPenez == 'y':
+    print("Můžeš vstoupit.")
+  else:
+    print("Bez peněz sem nelez.")
 else:
-    print("Vstup zakázán.")
+  print("Vstup zakázán.")
 
 # Program vždy končí v první větvi, kde je podmínka splněna
-if vek < 15:
-    print("Utíkej za mámou.")
-elif vek <= 17:
-    print("Chvíli počkej.")
-elif vek == 18:
-    # Pro porovnání musejí být znak "=" dvakrát za sebou, jinak je to pokus o přiřazení
-    print("Máš to tak akorát.")
+pocetBodu = 55
+if pocetBodu < 60:
+  znamka = 5
+elif pocetBodu < 70:
+  znamka = 4
+elif pocetBodu < 80:
+  znamka = 3
+elif pocetBodu < 90:
+  znamka = 2
 else:
-    print("Můžeš vstoupit.")
+  znamka = 1
+print(f"Znamka z testu je {znamka}")

@@ -5,24 +5,34 @@ ubehnuto = [3, 0, 0, 15, 2, 5, 9]
 ubehnuto[0] # První hodnota v seznamu
 ubehnuto[6] # Poslední hodnota v seznamu
 
-# Smíme hosta pustit na party?
-pozvani_hoste = ['Hana', 'Pavel', 'Klára', 'Natálie', 'Roman', 'Matěj']
-prichozi = 'Pavel'
+# Kdo už je v práci?
+zamestnanciVPraci = ['Hana', 'Klára', 'Natálie', 'Roman']
+
+hledamOsobu = 'Pavel'
 # Operátor in - je v seznamu?
-if prichozi in pozvani_hoste:
-    print('Pusť ho dovnitř!')
+if hledamOsobu in zamestnanciVPraci:
+  print(f'{hledamOsobu} už na vás čeká.')
 else:
-    print('Host není na seznamu.')
+  print(f'{hledamOsobu} tu zatím není.')
+
+zamestnanciVPraci.append("Pavel")
+if hledamOsobu in zamestnanciVPraci:
+  print(f'{hledamOsobu} už na vás čeká.')
+else:
+  print(f'{hledamOsobu} tu zatím není.')
 
 # Seznam může kombinovat datové typy
 chaoticka_data = [32, 'test', 4.3, True]
 
 # Lze mít i seznam v seznamu
 vydaje = [
-    ['Pavel', 'toaletní papír', 100],
-    ['Natálie', 'vajíčka', 80],
-    ['Roman', 'máslo', 50]
+  ['Pavel', 'toaletní papír', 100],
+  ['Natálie', 'vajíčka', 80]
 ]
+
+zapomenutyNakup = ['Roman', 'máslo', 50]
+vydaje.append(zapomenutyNakup)
+print(vydaje)
 
 # Jaký byl první nákup?
 vydaje[0]

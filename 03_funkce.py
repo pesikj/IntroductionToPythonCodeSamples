@@ -3,11 +3,11 @@ round(2.3343534)
 round(2.9353434)
 
 # Vstup může být proměnná
-prumer_znamek = 2.3
-round(prumer_znamek)
+prumerZnamek = 2.3
+round(prumerZnamek)
 
 # Výstup můžu uložit do proměnné
-znamka_na_vysvedceni = round(prumer_znamek)
+znamkaNaVysvedceni = round(prumerZnamek)
 
 # Můžu zaokrouhlit na daný počet desetinných místo
 # Funkce může mít i více než jeden parametr
