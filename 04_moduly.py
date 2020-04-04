@@ -30,3 +30,19 @@ round(random.uniform(10, 15), 2)
 # Pozor, funkce se začínají vyhodnocovat zevnitř a předávají výsledek funkci venku
 # Pokud to zatím není jasné, lze se tomu vyhnout. Stačí výsledek první funkce uložit do proměnné
 # a ten předat další funkci.
+nahodne_cislo = random.uniform(10, 15)
+zaokrouhlene_cislo = round(nahodne_cislo, 2)
+
+# K čemu takové funkce jsou? Můžete například dělat simulace:
+# https://www.washingtonpost.com/graphics/2020/world/corona-simulator/
+
+# Upravený výpočet hrubé mzdy
+hruba_mzda = 55150
+superhruba_mzda = hruba_mzda * 1.338
+superhruba_mzda = math.ceil(superhruba_mzda / 100)*100
+dan_z_prijmu = hruba_mzda * 1.34 * 0.15 - 2070
+dan_z_prijmu = math.floor(dan_z_prijmu / 100)*100
+pojisteni = hruba_mzda * 0.11
+pojisteni = round(pojisteni)
+cista_mzda = hruba_mzda - dan_z_prijmu - pojisteni
+cista_mzda

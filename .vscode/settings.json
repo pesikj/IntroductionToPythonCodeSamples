@@ -1,0 +1,13 @@
+{
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.renderWhitespace": "boundary",
+  "editor.insertSpaces": true,
+  "editor.wordWrap": "on",
+  "files.eol": "\n",
+  "editor.minimap.enabled": false,
+  "editor.fontSize": 22,
+  "workbench.colorTheme": "Solarized Light",
+  "terminal.integrated.fontSize": 22,
+  "workbench.preferredDarkColorTheme": "Visual Studio Light"
+}

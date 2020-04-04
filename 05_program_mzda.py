@@ -10,7 +10,8 @@ hruba_mzda = input("Zadej mzdu:")
 # Lze provést i v jednom kroku
 # Vkládání do sebe - pozor na pořadí - chléb a máslo (nejdříve opéct, potom namazat)
 hruba_mzda = int(hruba_mzda)
-dan_z_prijmu = hruba_mzda * 1.34 * 0.15 - 2070
+superhruba_mzda = hruba_mzda *  1.338
+dan_z_prijmu = superhruba_mzda * 0.15 - 2070
 pojisteni = hruba_mzda * 0.11
 cista_mzda = hruba_mzda - dan_z_prijmu - pojisteni
 # Zde musíme naopak převést číslo na text
