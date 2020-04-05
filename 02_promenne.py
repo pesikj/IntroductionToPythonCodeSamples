@@ -11,4 +11,5 @@ celkoveNaklady = hodinovaSazba * odhadovanaPracnost + cestovne
 
 osloveni = "Kláro"
 pozdrav = "Ahoj"
-uvitaciText = f"{pozdrav} + {osloveni}"
+uvitaciText = f"{pozdrav} {osloveni}"
+uvitaciText = pozdrav + " " + osloveni
